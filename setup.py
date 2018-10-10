@@ -6,7 +6,7 @@ setup(
     description='Fast Feature Engineering',
     author='Tomomitsu Motohashi',
     author_email='tomomoto1983@gmail.com',
-    packages=['aiuto'],
+    packages=['ffeng'],
     install_requires=['pandas>=0.23.4'],
     url='https://github.com/tomomotofactory/ffeng',
     license='Apache License 2.0'
