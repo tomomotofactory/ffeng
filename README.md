@@ -39,7 +39,7 @@ log_df = pd.DataFrame({
 })
 ```
 
-### Convert categorical features to label feature
+### Label Feature Engineering
 ```python
 from ffeng import LabelFEng
 
