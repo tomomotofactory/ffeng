@@ -1,12 +1,7 @@
 import pytest
 import pandas as pd
-from sklearn.model_selection import KFold
-from xgboost import XGBRegressor, XGBClassifier
 
-from ffeng import AggregationFEng
 from ffeng import BinCountingFEng
-from ffeng import EnsembleFEng
-from ffeng import KFoldTargetMeanFEng
 
 @pytest.fixture(scope="module", autouse=True)
 def log_df():
